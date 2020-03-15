@@ -91,13 +91,14 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 //Code Here
 function evenFinder(nums){
   let newArr =[];
-  for (var i = 0; i < nums.length; i++)
-  if (nums[i]%2 === 0); {
-  newArr.push(nums[i])
+  for (var i = 0; i < nums.length; i++){
+  if (nums[1] %2 === 0); {
+  return newArr.push(nums[i]);
   }
+
+}
 return newArr
 }
-
 
 
 
@@ -125,7 +126,21 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 */
 
 //Code Here
+let evens =[];
+let odds = [];
 
+function divider(numbersArray){
+  
+ 
+    for (var i = 0; i < numbersArray.length; i++){
+    if ((numbersArray[i] %2) != 1){
+    evens.push(numbersArray[i]);
+    } else {
+      odds.push(numbersArray[i])
+    }
+    }
+  }
+ 
 
 
 ////////// PROBLEM 7 //////////
@@ -147,6 +162,17 @@ var getRandomArbitrary = function() {
 */
 
 //Code Here
+function finder(array){
+  let randomNumber = getRandomArbitrary()
+  for (var i = 0; i < array.length; i++){
+    if (array[i] === randomNumber){
+      return true
+    } else{
+      return false
+    }
+  }
+   
+}
 
 
 
@@ -186,7 +212,7 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 */
 
 //Code Here
-
+function 
 
 
 ////////// PROBLEM 10 //////////
@@ -202,7 +228,15 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 */
   
 //Code Here
+// function addTen(numbers){
+//   newNumbers = []
+//   for(i =0; i< numbers.length; i++){
+//     return (i + 10){
+    
+//     }
+//   }
 
+// }
 
 
 ////////// PROBLEM 11 //////////
